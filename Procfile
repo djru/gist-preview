@@ -1,0 +1,1 @@
+web: bundle exec ruby gist_preview.rb -p $PORT
