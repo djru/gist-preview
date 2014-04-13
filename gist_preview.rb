@@ -1,6 +1,6 @@
 require 'sinatra'
 require 'httparty'
-require 'URI'
+require 'thin'
 
 get '/' do
 	send_file File.join(settings.public_folder, 'home.html')
