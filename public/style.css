@@ -45,8 +45,10 @@ input.expand{
 }
 
 #faq{
-position: absolute;
-bottom: 50px;
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+	margin-left: -16px;
 }
 
 @-webkit-keyframes expand{
